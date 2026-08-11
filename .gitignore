@@ -1,0 +1,21 @@
+# Never commit SSH private keys or credentials
+*.pem
+*.ppk
+id_rsa
+id_rsa_*
+id_ed25519
+id_ed25519_*
+!*.pub
+*.key
+*.p12
+*.pfx
+.env
+.env.*
+credentials*
+secrets*
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
